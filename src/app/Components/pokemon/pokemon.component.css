@@ -1,0 +1,29 @@
+/* Contenedor centrado con margen más abajo */
+.container {
+    display: flex; /* Coloca los elementos en una fila horizontal */
+    justify-content: center; /* Centra los botones horizontalmente */
+    gap: 15px; /* Espacio entre los botones */
+    margin-top: 80px; /* Empuja el contenedor hacia abajo */
+}
+
+/* Estilos de los botones circulares más pequeños */
+button {
+    background-color: #6a5acd; /* Color de fondo púrpura */
+    color: #fff; /* Color del texto en blanco */
+    border: none; /* Sin borde */
+    border-radius: 50%; /* Hace el botón circular */
+    width: 40px; /* Ancho del botón */
+    height: 40px; /* Alto del botón (igual para mantener el círculo) */
+    cursor: cell; /* Cambia el cursor al pasar sobre el botón */
+    align-items: center; /* Centra el texto verticalmente */
+    justify-content: center; /* Centra el texto horizontalmente */
+}
+
+button:hover {
+    background-color: #836fff; /* Cambia a un púrpura más claro al pasar el cursor */
+}
+
+button:active {
+    background-color: color-mix(in srgb, cyan 50%, magenta 50%); /* Cambia a un color
+     más oscuro al hacer clic */
+}

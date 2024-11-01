@@ -1,0 +1,9 @@
+<div class="pokedex-container">
+  <div class="health-container">
+    <div *ngFor="let i of healthArray; let index = index">
+      <p *ngIf="index < currentHealth">❤️</p>
+    </div>
+  </div>
+  <button class="attack-button" (click)="attack()">Atacar</button>
+  <button class="recover-button" (click)="recover()">Recuperar</button>
+</div>

@@ -1,0 +1,23 @@
+	<section class="pokedex-view">  
+
+  <div class="container pokemon">
+      <div class="search-bar">
+          <input type="number" placeholder="Ingresa el número del Pokémon" [(ngModel)]="pokemonActual">
+          <button (click)="buscarPokemon()">Buscar</button>
+      </div>
+      <app-pokemon [solicitarImagen]="PokemonImagen"
+      [solicitarImagen]="PokemonImagen" 
+      (clickPokemon)="handlePokemon($event)"></app-pokemon>
+      <span class="point"></span>
+      <span class="point"></span> 
+  </div>
+  <div class="container grafico">
+      <app-grafico ></app-grafico>
+      
+  </div>
+  <!--Crear boton para que el boton avance de pokemon-->
+	</section>
+    
+<!-- Crea un boton que permita mostar el siguiente pokemon
+<button (click)="cambiarPokemon()">Cambiar Pokemon</button>
+</section> -->

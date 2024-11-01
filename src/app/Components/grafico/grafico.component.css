@@ -1,0 +1,50 @@
+.pokedex-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.health-container {
+  display: flex;
+  gap: 0; /* Elimina el espacio entre corazones */
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.health-container div {
+  margin: 0 2px; /* Ajusta para reducir espacio entre corazones */
+}
+
+.attack-button,
+.recover-button {
+  background-color: #6200ea; /* Color púrpura oscuro */
+  color: white; /* Texto blanco */
+  border: none; /* Sin borde */
+  border-radius: 25px; /* Bordes redondeados */
+  padding: 12px 20px; /* Espaciado interno */
+  font-size: 16px; /* Tamaño de fuente */
+  font-family: 'Arial', sans-serif; /* Fuente más elegante */
+  cursor: pointer; /* Cambia el cursor al pasar el ratón */
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Suaviza el cambio de color y agrega efecto de escala */
+  margin-top: 10px; /* Espacio entre los botones */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil para profundidad */
+}
+
+.attack-button:hover,
+.recover-button:hover {
+  background-color: #3700b3; /* Color más oscuro en hover */
+  transform: translateY(-2px); /* Efecto de elevación */
+}
+
+.recover-button {
+  background-color: #03dac5; /* Color turquesa */
+}
+
+.recover-button:hover {
+  background-color: #018786; /* Color más oscuro en hover */
+}
+
+

@@ -1,0 +1,46 @@
+/* Estilo para la vista de la Pokédex */
+.pokedex-view {
+    position: relative; /* Posiciona el contenedor relativo a sí mismo */
+    height: 90vh; /* Ocupa el 90% de la altura de la pantalla */
+    width: 300px; /* Ancho fijo de 300px */
+    display: flex; /* Usa flexbox para organizar elementos en fila/columna */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    background-color: color-mix(in srgb, cyan 50%, magenta 50%); /* Fondo en mezcla de cian y magenta al 50% */
+    padding: 20px; /* Espacio interno de 20px */
+    overflow: hidden; /* Oculta contenido que se salga del contenedor */
+    gap: 20px; /* Espacio entre los elementos */
+    border-top-left-radius: 20px; /* Redondea la esquina superior izquierda */
+    border-top-right-radius: 20px; /* Redondea la esquina superior derecha */
+    border-bottom-left-radius: 20px; /* Redondea la esquina inferior izquierda */
+    border-bottom-right-radius: 20px; /* Redondea la esquina inferior derecha */
+}
+
+/* Estilo para el contenedor interno de la Pokédex */
+.container {
+    position: relative; /* Posiciona el contenedor relativo a sí mismo */
+    width: 90%; /* Ancho del 90% del contenedor principal */
+    height: 250px; /* Altura fija de 250px */
+    display: flex; /* Usa flexbox para organizar los elementos */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+    background-color: white; /* Fondo blanco */
+}
+
+/* Estilo para el contenedor de Pokémon */
+.pokemon {
+    border-top-left-radius: 20px; /* Redondea la esquina superior izquierda */
+    border-top-right-radius: 20px; /* Redondea la esquina superior derecha */
+    border-bottom-left-radius: 20px; /* Redondea la esquina inferior izquierda */
+    border-bottom-right-radius: 20px; /* Redondea la esquina inferior derecha */
+}
+
+/* Estilo para el gráfico dentro del contenedor */
+.grafico {
+    border-top-right-radius: 20px; /* Redondea la esquina superior derecha */
+    border-top-left-radius: 20px; /* Redondea la esquina superior izquierda */
+    border-bottom-left-radius: 20px; /* Redondea la esquina inferior izquierda */
+    border-bottom-right-radius: 20px; /* Redondea la esquina inferior derecha */
+}
